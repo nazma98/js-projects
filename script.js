@@ -11,6 +11,10 @@ const addTask = () => {
     addTaskList(taskText);
 }
 
+const renderTasks = (tasks) => {
+    
+}
+
 const addTaskList = (taskText) => {
     tasks.push(taskText);
     renderTasks(tasks);
