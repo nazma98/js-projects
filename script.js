@@ -12,7 +12,12 @@ const addTask = () => {
 }
 
 const renderTasks = (tasks) => {
-    
+    tasks.forEach(task => {
+        console.log(task);
+        const taskList = document.createElement('li');
+        taskList.innerText = task;
+        return taskList;
+    });
 }
 
 const addTaskList = (taskText) => {
